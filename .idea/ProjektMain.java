@@ -1,9 +1,12 @@
 class ProjektMain{
     public static void main(String[] args){
-        mleimhof mx=new mleimhof();
+        Mleimhof mx = new Mleimhof();
         mx.tell();
 
-        jkreuzbe jk = new jkreuzbe();
+        Jkreuzbe jk = new Jkreuzbe();
         jk.tell();
+
+        Skara sk = new Skara();
+        sk.tell();
     }
 }
